@@ -1,0 +1,7 @@
+services:
+  server:
+    image: nginx:alpine
+    ports:
+      - "5000:80"
+    volumes:
+      - .:/usr/share/nginx/html
